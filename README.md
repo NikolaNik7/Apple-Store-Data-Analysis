@@ -19,6 +19,7 @@ An app store is any digital storefront intended to allow search and review of so
  - What app categories are most popular?
  - What price should I set?
  - How can I maximise user ratings?
+
 Currently the stakeholders that I must account for are:
  - The client
  - The clients customers

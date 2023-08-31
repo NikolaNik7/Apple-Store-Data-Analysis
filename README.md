@@ -27,6 +27,7 @@ Currently the stakeholders that I must account for are:
 
 ## 2. Prepare (aka Exploratory Data Analysis)
 Step 0
+
 I am utilising Sqlite online which unfortunately has a limit of 4mb per upload, therefore, I had to seperate the data and use the UNION ALL statement to combine it again. 
 ```
 CREATE TABLE applestore_description_combined AS 
@@ -48,6 +49,7 @@ SELECT * FROM appleStore_description4
 ```
 
 Step 1
+
 I will check the number of unique apps in both data sets (AppleStore and appleStore_description_combined). This is done as a discrepancy in either table would mean that the data set is not clean and thus has the potential to negatively impact our in depth analysis. 
 
 
